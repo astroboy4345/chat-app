@@ -1,7 +1,7 @@
 export const host = import.meta.env.VITE_API_URL;
-export const registerRoute = `${host}/api/auth/register`;
-export const loginRoute = `${host}/api/auth/login`;
-export const setAvatarRoute = `${host}/api/auth/setAvatar`;
-export const allUserRoute  = `${host}/api/auth/allUsers`;
-export const sendMessageRoute = `${host}/api/messages/addMessage`;
-export const fetchMessageRoute = `${host}/api/messages/getAllMessages`
+export const registerRoute = `/api/auth/register`;
+export const loginRoute = `/api/auth/login`;
+export const setAvatarRoute = `/api/auth/setAvatar`;
+export const allUserRoute  = `/api/auth/allUsers`;
+export const sendMessageRoute = `/api/messages/addMessage`;
+export const fetchMessageRoute = `/api/messages/getAllMessages`
