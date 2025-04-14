@@ -1,0 +1,109 @@
+.logout{
+    background-color: rgb(255, 255, 255);
+    height: 85vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    flex-direction: column;
+}
+
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 221, 221);
+    border-radius: 80px;
+    cursor: pointer;
+    box-shadow: 4px 8px 12px rgba(227, 221, 221, 0.3);
+    padding: 20px;
+    flex-direction: column;
+}
+
+.pic{
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    padding: 20px;
+    height: 120px;
+    width: 120px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(106, 179, 253);
+    border-radius: 70px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+.pic img{
+    height: 100px;
+    width: 80px;
+}
+.log-detail{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.logout-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    height: 100px;
+    width: 250px;
+    padding: 20px;
+    gap: 15px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: 25px;
+}
+.logout-button img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.logout-button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+.exit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    height: 50px;
+    width: 150px;
+    padding: 20px;
+    gap: 15px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: 25px;
+}
+
+.exit:hover{
+    background-color: red;
+    text-align: center;
+    color: black;
+    transform: scale(1.06);
+    transition: 1s;
+    border: none;
+}
+
+.exit img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
